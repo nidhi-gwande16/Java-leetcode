@@ -4,7 +4,7 @@ class Solution {
         int j=n/2;
         int count1=0 ,count2=0;
         String vowels="aeiouAEIOU";
-        for(int i=0;i<n/2;i++)
+        for(int i=0;i<j;i++)
         {
             char ch1=s.charAt(i);
             char ch2=s.charAt(j+i);
