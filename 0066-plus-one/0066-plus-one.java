@@ -7,9 +7,9 @@ class Solution {
               digits[i]+=1;
               return digits;
           }
-          digits[i]=0;
+          digits[i]=0;//if 9
       }
-        int[] arr=new int[digits.length+1];
+        int[] arr=new int[digits.length+1]; //999=3  them 1000=4
         arr[0]=1;
         return arr;
     }
